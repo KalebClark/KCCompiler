@@ -1,0 +1,58 @@
+{
+  "builds": [
+    {
+      "name": "wowzers",
+      "tools": [
+        {
+          "name": "qbsp",
+          "path": false,
+          "args": [
+            "-foobar",
+            "-nofill"
+          ]
+        },
+        {
+          "name": "light",
+          "path": false,
+          "args": [
+            "-dirtdebug 4",
+            "-nofill 33"
+          ]
+        },
+        {
+          "name": "vis",
+          "path": false,
+          "args": []
+        }
+      ]
+    },
+    {
+      "name": "fast",
+      "tools": [
+        {
+          "name": "qbsp",
+          "path": false,
+          "args": []
+        },
+        {
+          "name": "light",
+          "path": false,
+          "args": []
+        },
+        {
+          "name": "vis",
+          "path": false,
+          "args": []
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "name": "foobar",
+      "game": "",
+      "map_source": "",
+      "map_dest": ""
+    }
+  ]
+}
